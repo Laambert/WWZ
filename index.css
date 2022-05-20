@@ -1,0 +1,375 @@
+body {
+    height: 2100px;
+    width: 100%;
+    display: flex;
+
+    font-family: 'Lato';
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav {
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: fixed;
+    top: 0%;
+
+    border-bottom: 5px solid transparent;
+}
+
+.galeryPanel {
+    height: 730px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.galery {
+    height: 100%;
+    width: 90%;
+
+    display: flex;
+
+    background-image: url("using_images/default.webp");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 10px 0px;
+    box-shadow: 0px 4px 28px 11px rgba(105, 14, 14, 0.5);
+
+    animation-name: galeryAnimation;
+            animation-timing-function: ease;
+            animation-duration: 1.5s;
+            animation-play-state: running;
+            animation-iteration-count: 1;
+
+}
+
+.tutorial {
+    height: 720px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-image: url("using_images/wwz_.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.blockGroupe {
+    height: 380px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: rgb(0, 0, 0);
+}
+
+.block {
+    height: 85%;
+    width: 20%;
+
+    display: grid;
+    justify-items: center;
+    align-self: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.05fr 1fr 1fr;
+
+
+    gap: -5%;
+
+
+    background: rgba(67, 8, 8, 1);
+}
+
+.mediaBlock {
+    height: 85%;
+    width: 20%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+
+
+    gap: -5%;
+
+
+    background: rgba(67, 8, 8, 1);
+}
+
+.footer {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: rgba(12, 3, 3, 1);
+    ;
+}
+
+.container {
+    height: 820px;
+    width: 100%;
+
+    background-image: url("using_images/shipv2blur.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.textTutorialCaption {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+
+    font-size: 35px;
+    backdrop-filter: blur;
+    color: whitesmoke;
+
+    margin-top: 2%;
+
+}
+
+.textTutorial {
+    width: 55%;
+ 
+    display: flex;
+    margin-top: 2%;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+    color: whitesmoke;
+}
+
+.tutorialImage{
+    height: 55%;
+    width: 50%;
+
+    box-shadow: 0px 0px 5px 10px rgba(49, 9, 9, 0.74);
+    margin-top: 3%;
+}
+
+.menuButton {
+    height: 45%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+
+    margin-left: 4%;
+
+    background-image: url("using_images/logo.webp");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    animation-name: menuAnimation;
+            animation-timing-function: ease;
+            animation-duration: 2s;
+            animation-play-state: running;
+            animation-iteration-count: 1;
+}
+
+.example{
+width: 30%;
+height: 30%;
+}
+
+.arrowPanel {
+    width: 70%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.arrow {
+    width: 5%;
+    height: 10%;
+    background-position: center;
+    background-size: 100%;
+}
+
+.arrow:hover {
+    transform: scale(120%);
+}
+
+#right {
+    background-image: url("using_images/whiteR.webp");
+}
+
+#left {
+    background-image: url("using_images/whiteL.webp");
+}
+
+.rating{
+    height: 140px;
+    width: 140px;
+    display: flex;
+    margin-left: 5%;
+    background-image: url("using_images/18.webp");
+    background-size: contain;
+}
+
+.copyright{
+    color: whitesmoke;
+}
+
+.end{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buyButton{
+    width: 8%;
+    height: 30%;
+
+    margin-left: 70%;
+
+    text-align: center;
+
+    background: rgba(184, 17, 17, 1);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 17px;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgba(0, 0, 0, 0.541);
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 6px 3px rgba(124, 7, 7, 0.712);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SocialMedia{
+    height: 15%;
+    width: 100%;
+    grid-column: 1/3;
+    text-align: center;
+    margin-top: 5%;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+a :link    { color: black; }
+a :visited { color: black; }
+
+.wikiMain{
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/3;
+
+    margin-top: 5%;
+}
+
+.image{
+    height: 70%;
+    width: 100%;
+}
+
+.fandomMain{
+    height: auto;
+    width: 100%;
+    
+}
+
+.zombiesBut{
+    margin-left: 5%;
+    color: rgb(216, 216, 216);
+    font-size: 25px;
+}
+
+
+@keyframes menuAnimation {
+    from {
+        transform: rotate(0deg);
+        background-image: url("using_images/logo.webp");
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+
+    80%{
+        background-image: url("using_images/pistol.webp");
+    }
+    to {
+        transform: rotate(520deg);
+        background-image: url("using_images/pistol.webp");
+        opacity: 1;
+    }
+}
+
+
+@keyframes galeryAnimation {
+    from {
+        background-image: url("using_images/8396.jpg");
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+
+    80%{
+        opacity: 0.7;
+    }
+    to {
+        opacity: 1;
+        background-image: url("using_images/default.webp");
+    }
+}
