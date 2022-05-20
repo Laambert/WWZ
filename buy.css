@@ -2,7 +2,7 @@ body{
     height: 100vh;
     width: 100%;
 
-    background-image: url("images/buyBack.jpg");
+    background-image: url("buyBack.jpg");
     background-position: center;
     background-size: cover;
     backdrop-filter: blur(2px);
@@ -147,19 +147,19 @@ body{
 
 
 #steam{
-    background-image: url("images/steam.png");
+    background-image: url("steam.png");
 }
 
 #epic{
-    background-image: url("images/epic.png");
+    background-image: url("epic.png");
 }
 
 #eneba{
-    background-image: url("images/eneba.webp");
+    background-image: url("eneba.webp");
 }
 
 #g2a{
-    background-image: url("images/g2a.png");
+    background-image: url("g2a.png");
 }
 
 a:link { text-decoration: none; }
