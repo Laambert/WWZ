@@ -40,7 +40,7 @@ nav {
 
     display: flex;
 
-    background-image: url("using_images/default.webp");
+    background-image: url("default.webp");
     background-position: center;
     background-size: cover;
     border: 2px solid rgba(0, 0, 0, 0.25);
@@ -64,7 +64,7 @@ nav {
     justify-content: flex-start;
     align-items: center;
 
-    background-image: url("using_images/wwz_.jpg");
+    background-image: url("wwz_.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -131,7 +131,7 @@ nav {
     height: 820px;
     width: 100%;
 
-    background-image: url("using_images/shipv2blur.jpg");
+    background-image: url("shipv2blur.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -180,7 +180,7 @@ nav {
 
     margin-left: 4%;
 
-    background-image: url("using_images/logo.webp");
+    background-image: url("logo.webp");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -218,11 +218,11 @@ height: 30%;
 }
 
 #right {
-    background-image: url("using_images/whiteR.webp");
+    background-image: url("whiteR.webp");
 }
 
 #left {
-    background-image: url("using_images/whiteL.webp");
+    background-image: url("whiteL.webp");
 }
 
 .rating{
@@ -230,7 +230,7 @@ height: 30%;
     width: 140px;
     display: flex;
     margin-left: 5%;
-    background-image: url("using_images/18.webp");
+    background-image: url("18.webp");
     background-size: contain;
 }
 
@@ -334,7 +334,7 @@ a :visited { color: black; }
 @keyframes menuAnimation {
     from {
         transform: rotate(0deg);
-        background-image: url("using_images/logo.webp");
+        background-image: url("logo.webp");
         opacity: 1;
     }
 
@@ -344,11 +344,11 @@ a :visited { color: black; }
 
 
     80%{
-        background-image: url("using_images/pistol.webp");
+        background-image: url("pistol.webp");
     }
     to {
         transform: rotate(520deg);
-        background-image: url("using_images/pistol.webp");
+        background-image: url("pistol.webp");
         opacity: 1;
     }
 }
@@ -356,7 +356,7 @@ a :visited { color: black; }
 
 @keyframes galeryAnimation {
     from {
-        background-image: url("using_images/8396.jpg");
+        background-image: url("8396.jpg");
         opacity: 1;
     }
 
@@ -370,6 +370,6 @@ a :visited { color: black; }
     }
     to {
         opacity: 1;
-        background-image: url("using_images/default.webp");
+        background-image: url("default.webp");
     }
 }
