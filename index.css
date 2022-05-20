@@ -168,6 +168,10 @@ nav {
     box-shadow: 10px 10px 5px 10px rgba(49, 9, 9, 0.74);
 
     overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menuButton {
