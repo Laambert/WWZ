@@ -162,11 +162,11 @@ body{
     background-image: url("g2a.png");
 }
 
-a:active {text-decoration: none;  color: black; }
-a:hover {text-decoration: none; color: rgb(19, 0, 187); }
-a:link    {text-decoration: none;  color: black; }
-a:visited {text-decoration: none;  color: black; }
-a:focus {text-decoration: none;  color: black; }
+a:active {text-decoration: none;  color: rgb(160, 0, 0); }
+a:hover {text-decoration: none; color: rgb(160, 0, 0); }
+a:link    {text-decoration: none;  color: rgb(160, 0, 0); }
+a:visited {text-decoration: none;  color: rgb(160, 0, 0); }
+a:focus {text-decoration: none;  color: rgb(160, 0, 0); }
 
 
 @keyframes containerAppear {
