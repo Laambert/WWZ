@@ -255,6 +255,8 @@ height: 30%;
     width: 8%;
     height: 30%;
 
+    cursor: pointer;
+
     margin-left: 55%;
 
     text-align: center;
@@ -338,6 +340,8 @@ a :visited { color: black; }
     height: 50%;
     width: 8%;
     margin-left: 5%;
+
+    cursor: pointer;
 
     text-align: center;
     color: rgb(216, 216, 216);
