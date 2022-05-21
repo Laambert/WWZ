@@ -347,11 +347,11 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 
 
-a:active {text-decoration: none;  color: black; }
-a:hover {text-decoration: none; color: rgb(19, 0, 187); }
-a:link    {text-decoration: none;  color: black; }
-a:visited {text-decoration: none;  color: black; }
-a:focus {text-decoration: none;  color: black; }
+a:active {text-decoration: none;  color: whitesmoke; }
+a:hover {text-decoration: none; color: whitesmoke; }
+a:link    {text-decoration: none;  color: whitesmoke; }
+a:visited {text-decoration: none;  color: whitesmoke; }
+a:focus {text-decoration: none;  color: whitesmoke; }
 
 
 
