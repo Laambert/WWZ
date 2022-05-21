@@ -84,7 +84,7 @@ nav {
 
 .block {
     height: 85%;
-    width: 20%;
+    width: 27%;
 
     display: grid;
     justify-items: center;
@@ -165,13 +165,34 @@ nav {
     height: 55%;
     width: 50%;
 
+    margin-top: 3%;
+
     box-shadow: 0px 0px 5px 10px rgba(49, 9, 9, 0.74);
 
     overflow: hidden;
 
+    background-image: url("preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.preview{
+height: auto;
+width: 100%;
+}
+
+.a{
+    height: 100%;
+    width: 100%;
+
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .menuButton {
@@ -244,11 +265,28 @@ height: 30%;
     color: whitesmoke;
 }
 
-.end{
-    width: 80%;
+.footerImg{
+    height: 100%;
+    width: 25%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 60%;
+}
+
+#saber{
+    background-image: url("saber.png");
+}
+
+#paramount{
+    background-image: url("Paramount.png");
+}
+
+#amd{
+    background-image: url("AMD-Logo.png");
 }
 
 .buyButton{
@@ -309,21 +347,13 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 
 
-a:active { text-decoration: none; }
+a:active {text-decoration: none;  color: black; }
+a:hover {text-decoration: none; color: rgb(19, 0, 187); }
+a:link    {text-decoration: none;  color: black; }
+a:visited {text-decoration: none;  color: black; }
+a:focus {text-decoration: none;  color: black; }
 
-a :link    { color: black; }
-a :visited { color: black; }
 
-.wikiMain{
-    height: 90%;
-    width: 95%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-column: 1/3;
-
-    margin-top: 5%;
-}
 
 .image{
     height: 70%;
@@ -332,14 +362,50 @@ a :visited { color: black; }
 
 .fandomMain{
     height: auto;
-    width: 100%;
+    width: 94%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/3;
+
+    margin: 2%;
     
+    background-image: url("World_War_Z_Promo.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+
+    box-shadow: 0px 0px 6px 3px rgba(15, 12, 12, 0.712);
+}
+
+.fandomSec{
+    height: 90%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto ;
+    box-shadow: 0px 0px 6px 3px rgba(15, 12, 12, 0.712);
+}
+
+#tokyo{
+    background-image: url("Tokyo.webp");
+}
+
+#survivors{
+    background-image: url("survivor.webp");
+}
+
+.blockText{
+    margin: 2%;
 }
 
 .zombiesBut{
     height: 50%;
     width: 8%;
     margin-left: 5%;
+
+    position: sticky;
 
     cursor: pointer;
 
@@ -361,21 +427,21 @@ a :visited { color: black; }
 @keyframes menuAnimation {
     from {
         transform: rotate(0deg);
-        background-image: url("logo.webp");
+        transform: scale(1);
+        background-image: url("pistol.webp");
         opacity: 1;
     }
 
     25% {
-        opacity: 0;
+        transform: scale(0.7);
+        transform: rotate(90deg);
+        opacity: 0.5;
     }
 
-
-    80%{
-        background-image: url("pistol.webp");
-    }
     to {
-        transform: rotate(520deg);
-        background-image: url("pistol.webp");
+        transform: rotate(-180deg);
+        transform: scale(1);
+        background-image: url("logo.webp");
         opacity: 1;
     }
 }

@@ -11,14 +11,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5d63e4335c.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>WWZ Aftermath</title>
 
 </head>
 
 <body>
     <div class="container">
+        <a name="top"></a>
         <nav>
-            <div class="menuButton"></div>
+            <div class="menuButton"><a href="#top" class="top"></a></div>
             <div class="zombiesBut" onclick="window.location.href='zombie.html'"><p>Zombies</p></div> <!-- https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link-->
 
             <button class="buyButton" id="buy" onclick="window.location.href='buy.html'"><p><b>BUY NOW</b></p></button>
@@ -44,16 +45,16 @@
             </p>
         </div>
 
-        <div class="tutorialImage" style="overflow: hidden;">
-            <a href="https://www.youtube.com/watch?v=MeJ58eU8Xh8&ab_channel=PhantomBruv">
-               <img src="https://cdn2.unrealengine.com/landscape-wwzaftermath-de-2560x1440-d2537f5956b2.jpg?h=720&resize=1&w=1280" alt="preview" style="height: auto; width: 100%;">
-            </a>
+        <div class="tutorialImage">
+            <a href="https://www.youtube.com/watch?v=MeJ58eU8Xh8&ab_channel=PhantomBruv" class="a"></a>
         </div>
     </div>
     <div class="blockGroupe">
         <div class="block">
-            <div class="SocialMedia"><p>if you need more information, just visit Wiki</p></div>
-            <div class="wikiMain"><a href="https://worldwarz.fandom.com/wiki/World_War_Z_Wiki"><img src="World_War_Z_Promo.webp" class="fandomMain"></a></div>
+            <div class="SocialMedia"><p class="blockText">if you need more information, just visit Wiki</p></div>
+            <div class="fandomMain"><a href="https://worldwarz.fandom.com/wiki/World_War_Z_Wiki" class="a"></a></div>
+            <div class="fandomSec" id="tokyo"><a href="https://worldwarz.fandom.com/wiki/Cities?so=search" class="a"></a></div>
+            <div class="fandomSec" id="survivors"><a href="https://worldwarz.fandom.com/wiki/Survivors" class="a"><b>Survivors</b></a></div>
         </div>
         <div class="block">
             <div class="SocialMedia"><p>Join us on Social media</p></div>
@@ -63,19 +64,23 @@
                 <a href="https://www.twitch.tv/directory/game/World%20War%20Z:%20Aftermath?lang=cs"><i class="fab fa-twitch fa-4x"></i></a>
         </div>
         <div class="block"></div>
-        <div class="block"></div>
     </div>
     <div class="footer">
         <div class="rating"></div>
 
-        <div class="end">
-            <div class="copyright">
-                <p>v 1.01 - 2022 © Nikolayev</p>
-             </div>
+        <div class="footerImg" id="saber">
+            <a href="https://saber.games/" class="a"></a>
+        </div>
+
+        <div class="footerImg" id="paramount">
+            <a href="https://www.paramount.com/" class="a"></a>
+        </div>
+
+        <div class="footerImg" id="amd">
+            <a href="https://www.amd.com" class="a"></a>
         </div>
        
     </div>
     <script src="index.js"></script>
 </body>
-
 </html>
